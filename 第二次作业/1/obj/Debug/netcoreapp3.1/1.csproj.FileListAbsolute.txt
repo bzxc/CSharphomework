@@ -1,0 +1,11 @@
+/Users/yee/Desktop/My Career/C#/第二次作业/1/obj/Debug/netcoreapp3.1/1.csprojAssemblyReference.cache
+/Users/yee/Desktop/My Career/C#/第二次作业/1/obj/Debug/netcoreapp3.1/1.AssemblyInfoInputs.cache
+/Users/yee/Desktop/My Career/C#/第二次作业/1/obj/Debug/netcoreapp3.1/1.AssemblyInfo.cs
+/Users/yee/Desktop/My Career/C#/第二次作业/1/bin/Debug/netcoreapp3.1/1
+/Users/yee/Desktop/My Career/C#/第二次作业/1/bin/Debug/netcoreapp3.1/1.deps.json
+/Users/yee/Desktop/My Career/C#/第二次作业/1/bin/Debug/netcoreapp3.1/1.runtimeconfig.json
+/Users/yee/Desktop/My Career/C#/第二次作业/1/bin/Debug/netcoreapp3.1/1.runtimeconfig.dev.json
+/Users/yee/Desktop/My Career/C#/第二次作业/1/bin/Debug/netcoreapp3.1/1.dll
+/Users/yee/Desktop/My Career/C#/第二次作业/1/bin/Debug/netcoreapp3.1/1.pdb
+/Users/yee/Desktop/My Career/C#/第二次作业/1/obj/Debug/netcoreapp3.1/1.dll
+/Users/yee/Desktop/My Career/C#/第二次作业/1/obj/Debug/netcoreapp3.1/1.pdb
