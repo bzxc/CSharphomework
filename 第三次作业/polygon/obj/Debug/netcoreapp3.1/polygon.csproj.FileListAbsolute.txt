@@ -1,0 +1,11 @@
+/Users/yee/Desktop/My Career/C#/第三次作业/polygon/bin/Debug/netcoreapp3.1/polygon
+/Users/yee/Desktop/My Career/C#/第三次作业/polygon/bin/Debug/netcoreapp3.1/polygon.deps.json
+/Users/yee/Desktop/My Career/C#/第三次作业/polygon/bin/Debug/netcoreapp3.1/polygon.runtimeconfig.json
+/Users/yee/Desktop/My Career/C#/第三次作业/polygon/bin/Debug/netcoreapp3.1/polygon.runtimeconfig.dev.json
+/Users/yee/Desktop/My Career/C#/第三次作业/polygon/bin/Debug/netcoreapp3.1/polygon.dll
+/Users/yee/Desktop/My Career/C#/第三次作业/polygon/bin/Debug/netcoreapp3.1/polygon.pdb
+/Users/yee/Desktop/My Career/C#/第三次作业/polygon/obj/Debug/netcoreapp3.1/polygon.csprojAssemblyReference.cache
+/Users/yee/Desktop/My Career/C#/第三次作业/polygon/obj/Debug/netcoreapp3.1/polygon.AssemblyInfoInputs.cache
+/Users/yee/Desktop/My Career/C#/第三次作业/polygon/obj/Debug/netcoreapp3.1/polygon.AssemblyInfo.cs
+/Users/yee/Desktop/My Career/C#/第三次作业/polygon/obj/Debug/netcoreapp3.1/polygon.dll
+/Users/yee/Desktop/My Career/C#/第三次作业/polygon/obj/Debug/netcoreapp3.1/polygon.pdb
