@@ -1,0 +1,8 @@
+/Users/yee/Desktop/My Career/C#/第五次作业/Order/OrderTest/bin/Debug/netstandard2.0/OrderTest.deps.json
+/Users/yee/Desktop/My Career/C#/第五次作业/Order/OrderTest/bin/Debug/netstandard2.0/OrderTest.dll
+/Users/yee/Desktop/My Career/C#/第五次作业/Order/OrderTest/bin/Debug/netstandard2.0/OrderTest.pdb
+/Users/yee/Desktop/My Career/C#/第五次作业/Order/OrderTest/obj/Debug/netstandard2.0/OrderTest.csprojAssemblyReference.cache
+/Users/yee/Desktop/My Career/C#/第五次作业/Order/OrderTest/obj/Debug/netstandard2.0/OrderTest.AssemblyInfoInputs.cache
+/Users/yee/Desktop/My Career/C#/第五次作业/Order/OrderTest/obj/Debug/netstandard2.0/OrderTest.AssemblyInfo.cs
+/Users/yee/Desktop/My Career/C#/第五次作业/Order/OrderTest/obj/Debug/netstandard2.0/OrderTest.dll
+/Users/yee/Desktop/My Career/C#/第五次作业/Order/OrderTest/obj/Debug/netstandard2.0/OrderTest.pdb

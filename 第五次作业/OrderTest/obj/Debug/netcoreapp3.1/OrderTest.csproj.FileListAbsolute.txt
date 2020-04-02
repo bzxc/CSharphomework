@@ -1,0 +1,11 @@
+/Users/yee/Desktop/My Career/C#/第五次作业/OrderTest/bin/Debug/netcoreapp3.1/OrderTest
+/Users/yee/Desktop/My Career/C#/第五次作业/OrderTest/bin/Debug/netcoreapp3.1/OrderTest.deps.json
+/Users/yee/Desktop/My Career/C#/第五次作业/OrderTest/bin/Debug/netcoreapp3.1/OrderTest.runtimeconfig.json
+/Users/yee/Desktop/My Career/C#/第五次作业/OrderTest/bin/Debug/netcoreapp3.1/OrderTest.runtimeconfig.dev.json
+/Users/yee/Desktop/My Career/C#/第五次作业/OrderTest/bin/Debug/netcoreapp3.1/OrderTest.dll
+/Users/yee/Desktop/My Career/C#/第五次作业/OrderTest/bin/Debug/netcoreapp3.1/OrderTest.pdb
+/Users/yee/Desktop/My Career/C#/第五次作业/OrderTest/obj/Debug/netcoreapp3.1/OrderTest.csprojAssemblyReference.cache
+/Users/yee/Desktop/My Career/C#/第五次作业/OrderTest/obj/Debug/netcoreapp3.1/OrderTest.AssemblyInfoInputs.cache
+/Users/yee/Desktop/My Career/C#/第五次作业/OrderTest/obj/Debug/netcoreapp3.1/OrderTest.AssemblyInfo.cs
+/Users/yee/Desktop/My Career/C#/第五次作业/OrderTest/obj/Debug/netcoreapp3.1/OrderTest.dll
+/Users/yee/Desktop/My Career/C#/第五次作业/OrderTest/obj/Debug/netcoreapp3.1/OrderTest.pdb

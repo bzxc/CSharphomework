@@ -1,0 +1,11 @@
+/Users/yee/Desktop/My Career/C#/第四次作业/Clock/bin/Debug/netcoreapp3.1/Clock
+/Users/yee/Desktop/My Career/C#/第四次作业/Clock/bin/Debug/netcoreapp3.1/Clock.deps.json
+/Users/yee/Desktop/My Career/C#/第四次作业/Clock/bin/Debug/netcoreapp3.1/Clock.runtimeconfig.json
+/Users/yee/Desktop/My Career/C#/第四次作业/Clock/bin/Debug/netcoreapp3.1/Clock.runtimeconfig.dev.json
+/Users/yee/Desktop/My Career/C#/第四次作业/Clock/bin/Debug/netcoreapp3.1/Clock.dll
+/Users/yee/Desktop/My Career/C#/第四次作业/Clock/bin/Debug/netcoreapp3.1/Clock.pdb
+/Users/yee/Desktop/My Career/C#/第四次作业/Clock/obj/Debug/netcoreapp3.1/Clock.csprojAssemblyReference.cache
+/Users/yee/Desktop/My Career/C#/第四次作业/Clock/obj/Debug/netcoreapp3.1/Clock.AssemblyInfoInputs.cache
+/Users/yee/Desktop/My Career/C#/第四次作业/Clock/obj/Debug/netcoreapp3.1/Clock.AssemblyInfo.cs
+/Users/yee/Desktop/My Career/C#/第四次作业/Clock/obj/Debug/netcoreapp3.1/Clock.dll
+/Users/yee/Desktop/My Career/C#/第四次作业/Clock/obj/Debug/netcoreapp3.1/Clock.pdb
