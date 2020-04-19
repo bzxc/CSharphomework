@@ -1,0 +1,11 @@
+/Users/yee/Desktop/My Career/C#/第七次作业/Script/bin/Debug/netcoreapp3.1/Script
+/Users/yee/Desktop/My Career/C#/第七次作业/Script/bin/Debug/netcoreapp3.1/Script.deps.json
+/Users/yee/Desktop/My Career/C#/第七次作业/Script/bin/Debug/netcoreapp3.1/Script.runtimeconfig.json
+/Users/yee/Desktop/My Career/C#/第七次作业/Script/bin/Debug/netcoreapp3.1/Script.runtimeconfig.dev.json
+/Users/yee/Desktop/My Career/C#/第七次作业/Script/bin/Debug/netcoreapp3.1/Script.dll
+/Users/yee/Desktop/My Career/C#/第七次作业/Script/bin/Debug/netcoreapp3.1/Script.pdb
+/Users/yee/Desktop/My Career/C#/第七次作业/Script/obj/Debug/netcoreapp3.1/Script.csprojAssemblyReference.cache
+/Users/yee/Desktop/My Career/C#/第七次作业/Script/obj/Debug/netcoreapp3.1/Script.AssemblyInfoInputs.cache
+/Users/yee/Desktop/My Career/C#/第七次作业/Script/obj/Debug/netcoreapp3.1/Script.AssemblyInfo.cs
+/Users/yee/Desktop/My Career/C#/第七次作业/Script/obj/Debug/netcoreapp3.1/Script.dll
+/Users/yee/Desktop/My Career/C#/第七次作业/Script/obj/Debug/netcoreapp3.1/Script.pdb
