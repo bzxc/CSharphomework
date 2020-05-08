@@ -159,8 +159,12 @@ namespace OrderTest
 
         public void modifyOrder(Order o, int id) //修改
         {
-            var order = orderList.Where(c => c.id == 2).FirstOrDefault();
-            order = o;
+            var order = orderList.Where(c => c.id == id).FirstOrDefault();
+            order.id = o.id;
+            order.address = o.address;
+            order.clientName = o.clientName;
+            order.date = o.date;
+            order.goods = o.goods;
         }
 
         static int sortId(Order x, Order y) //按id排序
