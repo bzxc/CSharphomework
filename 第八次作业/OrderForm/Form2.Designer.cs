@@ -38,9 +38,6 @@
             this.addCancel = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.findid = new System.Windows.Forms.Label();
-            this.additem = new System.Windows.Forms.Button();
-            this.edititem = new System.Windows.Forms.Button();
-            this.deleteitem = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -93,7 +90,7 @@
             // 
             // addSure
             // 
-            this.addSure.Location = new System.Drawing.Point(145, 198);
+            this.addSure.Location = new System.Drawing.Point(276, 45);
             this.addSure.Name = "addSure";
             this.addSure.Size = new System.Drawing.Size(75, 23);
             this.addSure.TabIndex = 6;
@@ -103,7 +100,7 @@
             // 
             // addCancel
             // 
-            this.addCancel.Location = new System.Drawing.Point(309, 198);
+            this.addCancel.Location = new System.Drawing.Point(276, 115);
             this.addCancel.Name = "addCancel";
             this.addCancel.Size = new System.Drawing.Size(75, 23);
             this.addCancel.TabIndex = 7;
@@ -126,41 +123,11 @@
             this.findid.TabIndex = 9;
             this.findid.Text = "操作id";
             // 
-            // additem
-            // 
-            this.additem.Location = new System.Drawing.Point(289, 44);
-            this.additem.Name = "additem";
-            this.additem.Size = new System.Drawing.Size(75, 23);
-            this.additem.TabIndex = 10;
-            this.additem.Text = "添加订单";
-            this.additem.UseVisualStyleBackColor = true;
-            // 
-            // edititem
-            // 
-            this.edititem.Location = new System.Drawing.Point(289, 89);
-            this.edititem.Name = "edititem";
-            this.edititem.Size = new System.Drawing.Size(75, 23);
-            this.edititem.TabIndex = 11;
-            this.edititem.Text = "修改订单";
-            this.edititem.UseVisualStyleBackColor = true;
-            // 
-            // deleteitem
-            // 
-            this.deleteitem.Location = new System.Drawing.Point(289, 136);
-            this.deleteitem.Name = "deleteitem";
-            this.deleteitem.Size = new System.Drawing.Size(75, 23);
-            this.deleteitem.TabIndex = 12;
-            this.deleteitem.Text = "删除订单";
-            this.deleteitem.UseVisualStyleBackColor = true;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(524, 233);
-            this.Controls.Add(this.deleteitem);
-            this.Controls.Add(this.edititem);
-            this.Controls.Add(this.additem);
+            this.ClientSize = new System.Drawing.Size(428, 205);
             this.Controls.Add(this.findid);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.addCancel);
@@ -191,8 +158,5 @@
         private System.Windows.Forms.Button addCancel;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label findid;
-        private System.Windows.Forms.Button additem;
-        private System.Windows.Forms.Button edititem;
-        private System.Windows.Forms.Button deleteitem;
     }
 }

@@ -30,26 +30,29 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.itembindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.num = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.addOrder = new System.Windows.Forms.Button();
-            this.modifyOrder = new System.Windows.Forms.Button();
-            this.deleteOrder = new System.Windows.Forms.Button();
-            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.cargoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orderbindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.valueDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orderbindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.cargoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.num = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itembindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.addOrder = new System.Windows.Forms.Button();
+            this.modifyOrder = new System.Windows.Forms.Button();
+            this.deleteOrder = new System.Windows.Forms.Button();
+            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
+            this.additem = new System.Windows.Forms.Button();
+            this.modifybutton = new System.Windows.Forms.Button();
+            this.deleteitem = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.orderbindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.itembindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.orderbindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -70,6 +73,45 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.Width = 35;
+            // 
+            // clientNameDataGridViewTextBoxColumn
+            // 
+            this.clientNameDataGridViewTextBoxColumn.DataPropertyName = "clientName";
+            this.clientNameDataGridViewTextBoxColumn.HeaderText = "Name";
+            this.clientNameDataGridViewTextBoxColumn.Name = "clientNameDataGridViewTextBoxColumn";
+            this.clientNameDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // dateDataGridViewTextBoxColumn
+            // 
+            this.dateDataGridViewTextBoxColumn.DataPropertyName = "date";
+            this.dateDataGridViewTextBoxColumn.HeaderText = "date";
+            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
+            this.dateDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // addressDataGridViewTextBoxColumn
+            // 
+            this.addressDataGridViewTextBoxColumn.DataPropertyName = "address";
+            this.addressDataGridViewTextBoxColumn.HeaderText = "address";
+            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
+            // 
+            // valueDataGridViewTextBoxColumn
+            // 
+            this.valueDataGridViewTextBoxColumn.DataPropertyName = "value";
+            this.valueDataGridViewTextBoxColumn.HeaderText = "value";
+            this.valueDataGridViewTextBoxColumn.Name = "valueDataGridViewTextBoxColumn";
+            this.valueDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // orderbindingSource
+            // 
+            this.orderbindingSource.DataSource = typeof(OrderTest.Order);
+            this.orderbindingSource.CurrentChanged += new System.EventHandler(this.orderbindingSource_CurrentChanged);
+            // 
             // dataGridView2
             // 
             this.dataGridView2.AutoGenerateColumns = false;
@@ -85,10 +127,11 @@
             this.dataGridView2.Size = new System.Drawing.Size(345, 287);
             this.dataGridView2.TabIndex = 1;
             // 
-            // itembindingSource
+            // cargoDataGridViewTextBoxColumn
             // 
-            this.itembindingSource.DataMember = "goods";
-            this.itembindingSource.DataSource = this.orderbindingSource;
+            this.cargoDataGridViewTextBoxColumn.DataPropertyName = "cargo";
+            this.cargoDataGridViewTextBoxColumn.HeaderText = "cargo";
+            this.cargoDataGridViewTextBoxColumn.Name = "cargoDataGridViewTextBoxColumn";
             // 
             // num
             // 
@@ -101,6 +144,11 @@
             this.price.DataPropertyName = "price";
             this.price.HeaderText = "price";
             this.price.Name = "price";
+            // 
+            // itembindingSource
+            // 
+            this.itembindingSource.DataMember = "goods";
+            this.itembindingSource.DataSource = this.orderbindingSource;
             // 
             // addOrder
             // 
@@ -137,56 +185,44 @@
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
-            // cargoDataGridViewTextBoxColumn
+            // additem
             // 
-            this.cargoDataGridViewTextBoxColumn.DataPropertyName = "cargo";
-            this.cargoDataGridViewTextBoxColumn.HeaderText = "cargo";
-            this.cargoDataGridViewTextBoxColumn.Name = "cargoDataGridViewTextBoxColumn";
+            this.additem.Location = new System.Drawing.Point(386, 63);
+            this.additem.Name = "additem";
+            this.additem.Size = new System.Drawing.Size(75, 23);
+            this.additem.TabIndex = 5;
+            this.additem.Text = "添加商品";
+            this.additem.UseVisualStyleBackColor = true;
+            this.additem.Click += new System.EventHandler(this.additem_Click);
             // 
-            // orderbindingSource
+            // modifybutton
             // 
-            this.orderbindingSource.DataSource = typeof(OrderTest.Order);
-            this.orderbindingSource.CurrentChanged += new System.EventHandler(this.orderbindingSource_CurrentChanged);
+            this.modifybutton.Location = new System.Drawing.Point(479, 62);
+            this.modifybutton.Name = "modifybutton";
+            this.modifybutton.Size = new System.Drawing.Size(75, 23);
+            this.modifybutton.TabIndex = 6;
+            this.modifybutton.Text = "修改商品";
+            this.modifybutton.UseVisualStyleBackColor = true;
+            this.modifybutton.Click += new System.EventHandler(this.modifybutton_Click);
             // 
-            // idDataGridViewTextBoxColumn
+            // deleteitem
             // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.Width = 35;
-            // 
-            // clientNameDataGridViewTextBoxColumn
-            // 
-            this.clientNameDataGridViewTextBoxColumn.DataPropertyName = "clientName";
-            this.clientNameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.clientNameDataGridViewTextBoxColumn.Name = "clientNameDataGridViewTextBoxColumn";
-            this.clientNameDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // dateDataGridViewTextBoxColumn
-            // 
-            this.dateDataGridViewTextBoxColumn.DataPropertyName = "date";
-            this.dateDataGridViewTextBoxColumn.HeaderText = "date";
-            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
-            this.dateDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // addressDataGridViewTextBoxColumn
-            // 
-            this.addressDataGridViewTextBoxColumn.DataPropertyName = "address";
-            this.addressDataGridViewTextBoxColumn.HeaderText = "address";
-            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
-            // 
-            // valueDataGridViewTextBoxColumn
-            // 
-            this.valueDataGridViewTextBoxColumn.DataPropertyName = "value";
-            this.valueDataGridViewTextBoxColumn.HeaderText = "value";
-            this.valueDataGridViewTextBoxColumn.Name = "valueDataGridViewTextBoxColumn";
-            this.valueDataGridViewTextBoxColumn.Width = 60;
+            this.deleteitem.Location = new System.Drawing.Point(572, 61);
+            this.deleteitem.Name = "deleteitem";
+            this.deleteitem.Size = new System.Drawing.Size(75, 23);
+            this.deleteitem.TabIndex = 7;
+            this.deleteitem.Text = "删除商品";
+            this.deleteitem.UseVisualStyleBackColor = true;
+            this.deleteitem.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(739, 450);
+            this.Controls.Add(this.deleteitem);
+            this.Controls.Add(this.modifybutton);
+            this.Controls.Add(this.additem);
             this.Controls.Add(this.deleteOrder);
             this.Controls.Add(this.modifyOrder);
             this.Controls.Add(this.addOrder);
@@ -196,10 +232,10 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.orderbindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.itembindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.orderbindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -222,6 +258,9 @@
         private System.Windows.Forms.Button modifyOrder;
         private System.Windows.Forms.Button deleteOrder;
         private System.IO.FileSystemWatcher fileSystemWatcher1;
+        private System.Windows.Forms.Button deleteitem;
+        private System.Windows.Forms.Button modifybutton;
+        private System.Windows.Forms.Button additem;
     }
 }
 

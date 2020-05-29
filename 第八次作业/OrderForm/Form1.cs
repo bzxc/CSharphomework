@@ -96,5 +96,52 @@ namespace OrderForm
             updateSource();
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 f = new Form3();
+            f.SendData += new Form3.SendDataInvoke(frm_sendDeleteItem);
+
+            f.Show();
+            //this.Hide()
+        }
+
+        private void frm_sendDeleteItem(string value0, string value1, string value2)
+        {
+            int num = int.Parse(value1);
+            double price = double.Parse(value2);
+            itembindingSource.Remove(new OrderItem(value0, num, price));
+        }
+
+        private void additem_Click(object sender, EventArgs e)
+        {
+            Form3 f = new Form3();
+            f.SendData += new Form3.SendDataInvoke(frm_sendAddItem);
+
+            f.Show();
+            //this.Hide();
+        }
+
+        private void frm_sendAddItem(string value0, string value1, string value2)
+        {
+            int num = int.Parse(value1);
+            double price = double.Parse(value2);
+            itembindingSource.Add(new OrderItem(value0, num, price));
+        }
+
+        private void modifybutton_Click(object sender, EventArgs e)
+        {
+            Form3 f = new Form3();
+            f.SendData += new Form3.SendDataInvoke(frm_sendModifyItem);
+
+            f.Show();
+            //this.Hide()
+        }
+
+        private void frm_sendModifyItem(string value0, string value1, string value2)
+        {
+            int num = int.Parse(value1);
+            double price = double.Parse(value2);
+            itembindingSource.Add(new OrderItem(value0, num, price));
+        }
     }
 }

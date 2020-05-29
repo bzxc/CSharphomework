@@ -12,9 +12,23 @@ namespace OrderForm
 {
     public partial class Form3 : Form
     {
+        public delegate void SendDataInvoke(string name, string num, string price);
+        public event SendDataInvoke SendData;
+
         public Form3()
         {
             InitializeComponent();
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sure_button_Click(object sender, EventArgs e)
+        {
+            SendData(textBox1.Text, textBox2.Text, textBox3.Text);
+            this.Close();
         }
     }
 }
