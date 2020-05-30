@@ -16,5 +16,7 @@ namespace OrderApi.Models
         public string address { get; set; }
         public List<OrderItem> goods { get; set;} //物品列表
         public double value { get; set; } //订单总价值
+
+        public Order() { goods = new List<OrderItem>();}
     }
 }
